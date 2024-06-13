@@ -1,0 +1,83 @@
+html {
+    background-color: #f7a5209b;
+    scroll-behavior: smooth;
+}
+
+
+.cadre-rond {
+    border: #17213B 4px solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+.cadre-rond img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenu{
+    border-radius: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    padding-top:10px;
+    padding-left:4%;
+    padding-right:4%;
+    line-height: 140%;
+    padding-bottom: 4%;
+}
+
+.presentation{
+    display: grid;
+    grid-template-columns:150px 150px 200px 650px;
+    margin-top: 9%;
+}
+
+#nom{
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: #17213B;
+}
+
+/*Début des propriétés des différents boutons*/
+.btnescape{
+    margin-top:4%;
+    margin-bottom: 5%;
+    font-size:1.6rem;
+    padding:10px 50px;
+    color:#F7A520;
+    background-color: #17213B ;
+    display: inline-block;
+    box-shadow: 0 10px 18px 0 rgba(0,0,0, 0.5);
+    transition: 0.5s;
+    text-decoration: none;
+    justify-content: center;
+    margin-left:75%;
+}
+
+.btnescape:hover{
+    box-shadow: 0 10px 18px 0 rgba(0,0,0, 0.5);
+    color: #17213B;
+    background-color:#F7A520;
+}
+/*Fin des propriétés des boutons*/
+
+.btnretour{
+    text-decoration: none;
+    color: #17213B;
+    font-size: 17px;
+}
+
+.boutonretour{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.boutonretour a:hover{
+    text-decoration: underline;
+}

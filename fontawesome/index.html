@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,600;1,600&family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/logo.png">
+    <title>Le Flop !</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/carrouselhome.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="Logo">
+            <a href="index.html">
+            <img src="Images/Ellipse1.png" id="Ellipse1" alt="Ellipse1">
+            <img src="Images/Logo_agence.png" id="Logo" alt="Logo_agence">
+            </a>
+        </div>
+
+        <div class="Menu">
+            <a href="index.html" class="header">ACCUEIL</a>
+            <a href="agence.html"class="header">AGENCE</a>
+            <a href="missions.html" class="header">MISSIONS</a>
+            <a href="contact.php"class="header">CONTACT</a>
+        </div>
+       <a href="missions.html#sectionmissions" class="boutoninscription">S'INSCRIRE</a>
+    </header>
+
+
+    
+    <!--Début bouton revenir vers le haut-->
+    <div class="backtotop">
+        <a href="#top">^</a>
+    </div>
+    <!--Fin bouton revenir vers le haut-->
+
+    <div class="backgroundhome">
+        <img src="Images/DSC05451.JPG" alt="Imagehome" id="imghome">
+        <h1 id="LeFlop">LE FLOP !</h1>
+    </div>
+
+    <div class="cursor-down">
+        <a href="#section">
+            <img src="Images/cursor-down.svg" alt="cursor-down" id="cursor">
+        </a>
+    </div>
+    <!--Début des propriétés pour créer mon carrousel avec mes trois photos. On a créer une section entière qu'on a divisé en un contenu qu'on a lui-même redivisé pour avoir mes trois cartes-->
+    <section id="section">
+        <section id="carrousel">
+            <div class="project">
+                <div class="container">
+                    <div class="prj-list">
+                            <div>
+                            <a href="agence.html">
+                                <img src="Images/carrousselagence.png">
+                            </a>
+                            <div >
+                                <a href="agence.html" class="btn">Agence</a></div>
+                            </div>
+                            <div>
+                                <a href="missions.html">
+                            <img src="Images/carrousselmissions.png">   
+                                </a>
+                            <div >
+                                <a href="missions.html" class="btn">Missions</a></div>                     
+                            </div>
+                            <div>
+                                <a href="contact.html">
+                           <img src="Images/carrousselcontact.png">
+                                </a>
+                           <div>
+                            <a href="contact.html" class="btn">Contact</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </section>
+<!--Fin des propriétés pour mon carrousel-->
+
+
+<!--Début de mon footer-->
+<footer>
+    <div class="logofooter">
+            <img src="Images/logo.png" alt="logoagence" id="logofooter">
+    </div>
+
+    <div class="pages">
+        <h2 class="titrefooter">Pages :</h2>
+        <ul>
+            <li><a href="index.html" class="txtfooter">Acceuil</a></li>
+            <li><a href="agence.html"class="txtfooter">Agence</a></li>
+            <li><a href="missions.html"class="txtfooter">Missions</a></li>
+            <li><a href="contact.php"class="txtfooter">Contact</a></li>
+        </ul>
+    </div>
+    <div class="adresse">
+        <h2 class="titrefooter">Adresse :</h2>
+        <a href="https://maps.app.goo.gl/L1GLxhhD5h5DUc8c9"><h2 class="txtfooter">28 Av. du Lac d'Annecy,<br>73370<br>Le Bourget du Lac.</h2></a>
+    </div>
+    <div class="follow">
+        <h2 class="titrefooter1">Suivez nous :</h2>
+        <a href="https://www.instagram.com/agence_leflop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="Images/insta.png" alt="insta" id="insta"></a>
+    </div>
+</footer>
+    <!--Fin de mon footer-->
+</body>
+</html>

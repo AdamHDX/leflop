@@ -1,0 +1,71 @@
+.navbar{
+	background-color: #17213b;
+	display: flex;
+}
+
+#Logo{
+	width:32px;
+	height:53px;
+	padding-left:25px;
+	padding-top:11px;
+}
+
+#Ellipse1{
+	height: 78px;
+	width: 78px;
+}
+
+.Logo{
+	position:relative;
+	margin-top:15px;
+	margin-left:65px;
+}
+
+#Logo, #Ellipse1{
+	position: absolute;
+
+}
+
+.Menu{
+	margin-top: 45px;
+	margin-left:150px;
+	transition: all 0.5s ease;
+}
+
+.Menu :hover{
+	color: #ffffff;
+	transition: ease-in-out;
+}
+
+
+.header{
+	text-decoration: none;
+	color:#F7A520;
+	font-size:21px;
+	padding-right:0px;
+	margin-left:50px;
+	cursor: pointer;
+
+}
+
+.boutoninscription{
+	background-color: #F7A520;
+	border-radius:40px;
+	color: #17213B;
+	border: none;
+	width:150px;
+	height: 35px;
+	margin-top:33px;
+	margin-left:400px;
+	font-size: 23px;
+	padding-top:16px;
+	padding-left: 38px;
+	margin-bottom:20px ;
+	text-decoration: none;
+}
+
+.boutoninscription:hover{
+	color: #ffffff;
+}
+
+

@@ -1,0 +1,98 @@
+html{
+  background-color: #17213b9a;
+  scroll-behavior: smooth;
+}
+
+
+/* Style pour les champs de saisie (texte, email et textarea) */ 
+input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;   
+    resize: vertical;
+    font-weight: normal;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    
+  }
+
+/* Style pour les labels, c'est-à-dire les sous titres. */
+label{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    font-weight: normal;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color:#17213B;
+
+}
+
+/* Style pour le bouton d'envoie du formulaire*/
+input[type=submit] {
+    background-color: #17213B;
+    color: #F7A520;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: normal;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 16px;
+  }
+  
+/* Style pour le survol du bouton d'envoie du formulaire */
+  input[type=submit]:hover {
+    color: #ffffff;
+  }
+
+/* Style pour le conteneur du formulaire */
+.cadre {
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:#f7a520d8;
+    padding:20px;
+    width: 100%;
+    max-width: 440px;
+    margin:0 auto;
+    margin-top:3%;
+    margin-bottom:3%;
+
+  }
+
+/* Effet de survol pour le conteneur du formulaire */
+.cadre:hover{
+    transform :scale(1.005)
+}
+
+#contact{
+  color:#17213B;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  font-size: 25px;
+}
